@@ -1,10 +1,10 @@
 # Abbey Starter Kit Quickstart Example
 
-This Quickstart is an example for how to use Abbey Labs and set up a Grant Kit. By the end, you’ll be able to configure a Workflow for users to request and approve access to the [Abbey Demo Site](https://app.abbey.io/demo).
+In this tutorial, you'll learn how to configure Abbey to automate access requests to an Google Cloud Identity Group by attaching a Google Cloud Identity Group Membership. This use case models granting new users memberships to a GCP group.
 
 ## Usage
 
-Visit this [Starter Kit's docs](https://docs.abbey.io/getting-started/quickstart) for a short usage walkthrough.
+Visit this [Starter Kit's docs](https://docs.abbey.io/integrations/identity-providers) for a short usage walkthrough.
 
 ## :books: Learn More
 
