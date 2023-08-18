@@ -8,9 +8,7 @@ on:
 jobs:
   materialize:
     runs-on: ubuntu-latest
-    permissions:
-      contents: 'write'
-      id-token: 'write'
+    permissions: 'write-all'
     env:
       TF_VAR_abbey_token: ${{ secrets.ABBEY_TOKEN }}
     steps:
