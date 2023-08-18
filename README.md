@@ -4,7 +4,7 @@ In this tutorial, you'll learn how to configure Abbey to automate access request
 
 ## Usage
 
-Visit this [Starter Kit's docs](https://docs.abbey.io/integrations/identity-providers) for a short usage walkthrough.
+Visit this [Starter Kit's docs](https://docs.abbey.io/integrations/identity-providers/google-cloud-platform-gcp) for a short usage walkthrough.
 
 ## :books: Learn More
 
