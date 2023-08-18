@@ -1,6 +1,6 @@
 # Abbey Starter Kit Quickstart Example
 
-In this tutorial, you'll learn how to configure Abbey to automate access requests to an Google Cloud Identity Group by attaching a Google Cloud Identity Group Membership. This use case models granting new users memberships to a GCP group.
+In this tutorial, you'll learn how to configure Abbey to automate access requests to a Google Cloud Identity Group by attaching a Google Cloud Identity Group Membership. This use case models granting new users memberships to a GCP group.
 
 ## Usage
 
