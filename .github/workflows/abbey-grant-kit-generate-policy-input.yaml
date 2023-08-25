@@ -29,12 +29,12 @@ jobs:
         id: init
         run: terraform init
         env:
-          TF_HTTP_USERNAME: quickstart
+          TF_HTTP_USERNAME: starter-kit-gcp-identity
           TF_HTTP_PASSWORD: ${{ secrets.ABBEY_TOKEN }}
 
       - name: Terraform Plan
         id: plan
         run: terraform plan -no-color -input=false -out=tfplan
         env:
-          TF_HTTP_USERNAME: quickstart
+          TF_HTTP_USERNAME: starter-kit-gcp-identity
           TF_HTTP_PASSWORD: ${{ secrets.ABBEY_TOKEN }}
