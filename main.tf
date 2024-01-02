@@ -5,9 +5,7 @@ locals {
   project_path = "github://${local.account_name}/${local.repo_name}"
   policies_path = "${local.project_path}/policies"
 
-  # Replace if your abbey email doesn't match your Google User email
-  # Example: gcp_member = "your-username@gmail.com"
-  gcp_member = "{{ .user.email }}"
+  gcp_member = "{{ .user.google.id }}"
   gcp_customer_id = "replace-me"
 }
 
